@@ -1,0 +1,1 @@
+env/ venv/ pycache/ *.pyc db.sqlite3 staticfiles/ .env
