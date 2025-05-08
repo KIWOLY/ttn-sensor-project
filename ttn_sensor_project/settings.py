@@ -84,9 +84,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Dar_es_Salaam'  # Tanzania's time zone
 USE_I18N = True
 USE_TZ = True
+
 
 # Static files
 STATIC_URL = '/static/'
