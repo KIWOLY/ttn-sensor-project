@@ -86,7 +86,7 @@ ttn_backend/
 
 ---
 
-## 📡 Deployment Notes
+## Deployment Notes
 
 * Use **Gunicorn/Uvicorn + Nginx** for production.
 * Environment variables should be managed with **.env files** (e.g., using `django-environ`).
@@ -94,7 +94,7 @@ ttn_backend/
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
 * Authentication (JWT/Token-based) for API access.
 * Data filtering by date/device.
