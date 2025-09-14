@@ -101,6 +101,3 @@ ttn_backend/
 * Real-time push updates using WebSockets.
 * Integration with Grafana/PowerBI for visualization.
 
----
-
-Would you like me to make this README **production-focused** (with Docker + Render/Heroku deployment instructions) or keep it **developer-focused** (local setup + API usage)?
