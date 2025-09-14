@@ -7,7 +7,7 @@ The project receives uplink data, stores it into a **PostgreSQL database**, and 
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Receive **uplink messages** from TTN using a webhook endpoint.
 * Parse and store sensor readings (e.g., temperature, humidity, gas levels, etc.) into **PostgreSQL**.
@@ -26,7 +26,6 @@ The project receives uplink data, stores it into a **PostgreSQL database**, and 
 * **Django REST Framework (DRF)**
 * **PostgreSQL**
 * **Gunicorn / Uvicorn** (for deployment, optional)
-* **Docker** (optional for containerization)
 
 ---
 
