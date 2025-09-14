@@ -33,9 +33,9 @@ The project receives uplink data, stores it into a **PostgreSQL database**, and 
 
 ```
 ttn_backend/
-│── backend/              # Main Django project files
-│   ├── settings.py       # Django settings (PostgreSQL, DRF, etc.)
-│   ├── urls.py           # URL routing
+│── backend/              
+│   ├── settings.py       
+│   ├── urls.py           
 │   └── wsgi.py / asgi.py
 │
 │── api/                  # DRF app for APIs
@@ -45,9 +45,9 @@ ttn_backend/
 │   ├── urls.py           # API endpoints
 │   └── tests.py
 │
-│── requirements.txt      # Python dependencies
-│── manage.py             # Django CLI
-│── README.md             # Project documentation
+│── requirements.txt      
+│── manage.py             
+│── README.md             
 ```
 
 ---
