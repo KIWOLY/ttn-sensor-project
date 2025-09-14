@@ -1,6 +1,4 @@
-Here’s a clear and professional **README.md** draft for your backend project:
 
----
 
 # TTN Webhook Backend with DRF & PostgreSQL
 
