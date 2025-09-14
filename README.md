@@ -52,55 +52,6 @@ ttn_backend/
 
 ---
 
-## ⚙️ Setup & Installation
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/ttn-backend.git
-cd ttn-backend
-```
-
-### 2. Create virtual environment & install dependencies
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-```
-
-### 3. Configure PostgreSQL
-
-Update your **`backend/settings.py`**:
-
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ttn_db',
-        'USER': 'postgres',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-```
-
-Run migrations:
-
-```bash
-python manage.py migrate
-```
-
-### 4. Run development server
-
-```bash
-python manage.py runserver
-```
-
----
 
 ## 🌐 API Endpoints
 
