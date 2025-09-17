@@ -96,7 +96,6 @@ ttn_backend/
 
 ## Future Improvements
 
-* Authentication (JWT/Token-based) for API access.
 * Data filtering by date/device.
 * Real-time push updates using WebSockets.
 * Integration with Grafana/PowerBI for visualization.
